@@ -1,0 +1,1 @@
+PReLU (Parametric ReLU): Instead of fixing the negative slope at 0.01, the model treats α as a learnable parameter. The network learns the best negative slope on its own during training.RReLU (Randomized ReLU): The slope α is randomly sampled from a range during training and fixed during testing, which acts as a form of regularization to prevent overfitting.
